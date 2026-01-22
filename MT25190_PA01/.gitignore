@@ -1,0 +1,37 @@
+# Compiled binaries
+program_a
+program_b
+*.o
+*.out
+*.exe
+
+# Temporary files
+/tmp/worker_io_*.tmp
+*.log
+*.pid
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated data (keep directory but ignore large files)
+# Uncomment if you don't want to commit CSV/plots
+# data/*.csv
+# plots/*.png
+# plots/*.pdf
